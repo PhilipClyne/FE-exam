@@ -1,0 +1,29 @@
+/* src/pages/HomePage.css */
+
+.homepage {
+  color: #fff;
+}
+
+.carousel-item img {
+  object-fit: fill;
+  height: 620px;
+}
+
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 5px;
+}
+.title {
+  color: black;
+}
+.delivery {
+  height: 370px;
+  object-fit: contain;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.app-dow {
+  background: #cccccc1a;
+}

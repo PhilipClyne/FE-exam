@@ -1,0 +1,80 @@
+.footer {
+  background-color: #e4002b;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  margin-top: 25px;
+}
+
+.footer-left,
+.footer-center,
+.footer-right {
+  flex: 1;
+  margin: 0 10px;
+}
+
+.footer-logo {
+  width: 100px;
+}
+
+.footer-company-name {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.footer-address,
+.footer-phone,
+.footer-hotline,
+.footer-tax,
+.footer-date,
+.footer-email {
+  margin: 5px 0;
+}
+
+.footer-center {
+  text-align: center;
+}
+
+.footer-hotline-number {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.footer-order-button {
+  background-color: #ffcc00;
+  border: none;
+  color: #e4002b;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.footer-right {
+  text-align: right;
+}
+
+.footer-right h4 {
+  margin-bottom: 10px;
+}
+.link {
+  color: white;
+  text-decoration: none;
+  font-size: large;
+}
+
+.footer-right p {
+  margin: 5px 0;
+}
+
+.footer-badge {
+  width: 100px;
+  margin: 10px 0;
+}
+
+.footer-app-links img {
+  width: 120px;
+  margin: 5px;
+}

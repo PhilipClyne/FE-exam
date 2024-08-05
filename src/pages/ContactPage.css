@@ -1,0 +1,29 @@
+/* src/components/ContactPage.css */
+.container {
+  margin: 0 auto;
+}
+.contact-page h1 {
+  color: #ff4500; /* Orange */
+}
+
+.contact-page .form-control {
+  border-color: #ff4500; /* Orange border */
+}
+
+.contact-page .btn-primary {
+  background-color: #ff6347; /* Red background */
+  border-color: #ff6347; /* Red border */
+}
+
+.contact-page .btn-primary:hover {
+  background-color: #ff4500; /* Darker orange on hover */
+  border-color: #ff4500; /* Darker orange on hover */
+}
+
+.contact-info h2 {
+  color: #ff4500; /* Orange */
+}
+
+.contact-info p {
+  color: #ff6347; /* Red */
+}
