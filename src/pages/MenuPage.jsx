@@ -5,7 +5,6 @@ import "./MenuPage.css";
 
 const FoodMenu = () => {
   const foodItems = [
-    // Add your food items data here
     {
       title: "Combo nhóm 6",
       description:
@@ -72,20 +71,6 @@ const FoodMenu = () => {
       title: "Burger Zinger",
       description: "1 Burger Zinger",
       price: "50.000đ",
-      img: salesoff,
-      category: "Burger",
-    },
-    {
-      title: "Burger Chicken",
-      description: "1 Burger Chicken",
-      price: "55.000đ",
-      img: salesoff,
-      category: "Burger",
-    },
-    {
-      title: "Burger Chicken",
-      description: "1 Burger Chicken",
-      price: "55.000đ",
       img: salesoff,
       category: "Burger",
     },
@@ -184,7 +169,11 @@ const FoodMenu = () => {
   return (
     <Container>
       <h1 className="title">Danh Mục Món Ăn</h1>
-      <Navbar bg="light" variant="light" className="mb-4">
+      <Navbar
+        bg="light"
+        variant="light"
+        className="mb-4 justify-content-center"
+      >
         <Nav className="mr-auto" activeKey={selectedCategory}>
           {categories.map((category, index) => (
             <Nav.Link
@@ -203,11 +192,13 @@ const FoodMenu = () => {
         .map((category) => (
           <div key={category}>
             <Row>
+              {/* <h2 className="category-title">{category}</h2> */}
+
               {filteredItems
                 .filter((item) => item.category === category)
                 .map((item, index) => (
                   <Col md={3} key={index}>
-                    <Card className="food-card">
+                    <Card className="food-card" style={{ height: "400px" }}>
                       <Card.Img variant="top" src={item.img} />
                       <Card.Body>
                         <Card.Title>{item.title}</Card.Title>

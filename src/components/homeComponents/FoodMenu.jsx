@@ -1,6 +1,6 @@
 import React from "react";
 import { Card, Col, Row, Container } from "react-bootstrap";
-import salesoff from "../assets/img/Sale-off.jpg";
+import salesoff from "../../assets/img/Sale-off.jpg";
 import "./FoodMenu.css";
 
 const FoodMenu = () => {
@@ -67,7 +67,7 @@ const FoodMenu = () => {
       <Row>
         {foodItems.map((item, index) => (
           <Col md={3} key={index}>
-            <Card className="food-card">
+            <Card className="food-card" style={{ height: "400px" }}>
               <Card.Img variant="top" src={item.img} />
               <Card.Body>
                 <Card.Title>{item.title}</Card.Title>

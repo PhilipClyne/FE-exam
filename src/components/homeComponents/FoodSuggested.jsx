@@ -2,8 +2,7 @@ import React from "react";
 import { Card, Button, Container } from "react-bootstrap";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import salesoff from "../assets/img/Sale-off.jpg";
-import "./FoodMenu.css";
+import salesoff from "../../assets/img/Sale-off.jpg";
 
 const FoodMenu = () => {
   const cards = [
@@ -61,7 +60,11 @@ const FoodMenu = () => {
         {cards.map((card, index) => (
           <Card
             key={index}
-            style={{ height: "28rem", margin: "15px" }}
+            style={{
+              height: "28rem",
+              padding: "15px",
+              borderRadius: "25px",
+            }}
             className="food-card"
           >
             <Card.Img variant="top" src={card.img} />
