@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Card, Col, Row, Container, Navbar, Nav } from "react-bootstrap";
 import salesoff from "../assets/img/Sale-off.jpg";
 import "./MenuPage.css";
+import Banner from "../components/homeComponents/BannerSection";
 
 const FoodMenu = () => {
   const foodItems = [
@@ -168,6 +169,8 @@ const FoodMenu = () => {
 
   return (
     <Container>
+      <Banner />
+
       <h1 className="title">Danh Mục Món Ăn</h1>
       <Navbar
         bg="light"

@@ -21,7 +21,7 @@ const CustomNavbar = () => {
   const toggle = () => setIsOpen(!isOpen);
 
   return (
-    <Navbar color="light" light expand="md" className="navbar">
+    <Navbar color="light" light expand="md" className="navbar" sticky="top">
       <div className="navbar-container">
         <NavbarBrand href="/">
           <img src={logo} alt="Logo" className="navbar-logo-img" />
