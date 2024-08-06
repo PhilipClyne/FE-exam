@@ -1,0 +1,36 @@
+/* src/Promotions.css */
+.promotions-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff; /* Light orange background */
+  padding: 20px;
+}
+
+.promotions-title {
+  font-size: 2em;
+  color: #b71c1c; /* Dark red */
+  margin-bottom: 20px;
+}
+
+.promotion-card {
+  background-color: #ffccbc; /* Light orange for cards */
+  border: 2px solid #bf360c; /* Darker orange for borders */
+  border-radius: 10px;
+  padding: 15px;
+  margin: 10px 0;
+  width: 80%;
+  max-width: 600px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.promotion-title {
+  font-size: 1.5em;
+  color: #d32f2f; /* Darker red for titles */
+  margin-bottom: 10px;
+}
+
+.promotion-description {
+  font-size: 1em;
+  color: #5d4037; /* Dark brown for descriptions */
+}
